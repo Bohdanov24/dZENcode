@@ -1,38 +1,38 @@
 # Cypress Shopping  Test
 
-## 1. Клонируйте репозиторий на ваш компьютер.
-### скачайте проект с GitHub, выполнив следующую команду:
+## 1. Clone the repository to your computer.
+### download the project from GitHub by running the following command:
 ```sh
 git clone https://github.com/Bohdanov24/dZENcode.git
 ```
-## 2. Перейдите в директорию проекта:
+## 2. Navigate to the project directory:
 ```sh
-cd dZENcode Automation
+cd dZENcode
 ```
-## 3. Установите зависимости.
-### для установки всех необходимых зависимостей выполните команду:
+## 3. Install the dependencies.
+### to install all the necessary dependencies, run the following command:
 ```sh
 npm install
 ```
-### это скачает и установит Cypress и другие зависимости, указанные в package.json.
-## 4. Запустите Cypress.
-### чтобы открыть Cypress, выполните команду:
+### this will download and install Cypress along with other dependencies specified in the package.json file.
+## 4. Run Cypress.
+### to open Cypress, run the following command:
 ```sh
 npx cypress open
 ```
-### после этого откроется интерфейс Cypress. Выберите тестовый файл из списка (shoping.cy.js), чтобы запустить тесты.
-## 5. Команды для работы с проектом.
-### запуск всех тестов в браузере:
+### after that, the Cypress interface will open. Select the test file from the list (shoping.cy.js) to run the tests.
+## 5. Commands for working with the project.
+### running all tests in the browser:
 ```sh
 npx cypress run
 ```
-### запуск тестов с графическим интерфейсом:
+### running tests with a graphical interface:
 ```sh
 npx cypress open
 ```
-### проверка установленной версии Cypress:
+### checking the installed version of Cypress:
 ```sh
 npx cypress --version
 ```
-dfdfdfd
+
 
